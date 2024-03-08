@@ -1,0 +1,4 @@
+Mar 06, 2024 7:50:53 PM seminar1.ContentLogger writeToFile
+INFO: Данные успешно записаны в файл
+Mar 06, 2024 7:51:00 PM seminar1.ContentLogger writeToFile
+INFO: Данные успешно записаны в файл
