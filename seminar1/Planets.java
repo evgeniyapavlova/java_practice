@@ -11,19 +11,28 @@ public class Planets {
     public static void main(String[] args) {
         ArrayList<String> planets = getListPlanets();
         System.out.println(planets);
-        
+
         printElemsAndRepeatings(planets);
         removerepeatingElems(planets);
         System.out.println(planets);
     }
 
     private static void removerepeatingElems(ArrayList<String> list) {
+        // for (int i = 0; i < list.size(); i++) {
+        // String currentPlanet = list.get(i);
+        // for (int j = i + 1; j < list.size(); j++) {
+        // if (list.get(j).equals(currentPlanet)) {
+        // list.remove(j);
+        // j--;
+        // }
+        // }
+        // }
+
         for (int i = 0; i < list.size(); i++) {
             String currentPlanet = list.get(i);
-            for (int j = i + 1; j < list.size(); j++) {
+            for (int j = list.size() - 1; j > i; j--) {
                 if (list.get(j).equals(currentPlanet)) {
                     list.remove(j);
-                    j--;
                 }
             }
         }
