@@ -1,4 +1,3 @@
-package seminar1;
 /* Дан LinkedList с несколькими элементами разного типа. 
 В методе revert класса LLTasks реализуйте разворот этого списка без использования встроенного функционала. */
 
@@ -12,14 +11,14 @@ public class RevertedLinkedList {
         ll.add(2);
         ll.add("Two");
         System.out.println(ll);
-        
+
         System.out.println(revert(ll));
     }
 
     public static LinkedList<Object> revert(LinkedList<Object> ll) {
-        // LinkedList<Object> llTemp = new LinkedList<>();        
+        // LinkedList<Object> llTemp = new LinkedList<>();
         // while (!ll.isEmpty()) {
-        //     llTemp.add(ll.pollLast());
+        // llTemp.add(ll.pollLast());
         // }
         // return llTemp;
 

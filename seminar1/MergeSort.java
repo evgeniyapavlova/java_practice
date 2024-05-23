@@ -1,5 +1,3 @@
-package seminar1;
-
 import java.util.Arrays;
 
 public class MergeSort {
@@ -10,7 +8,7 @@ public class MergeSort {
         System.out.println(itresume_res);
     }
 
-    private static void merge(int[] arr, int left, int middle, int right) {        
+    private static void merge(int[] arr, int left, int middle, int right) {
         int n1 = middle - left + 1;
         int n2 = right - middle;
 

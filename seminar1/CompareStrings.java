@@ -1,5 +1,3 @@
-package seminar1;
-
 /* Даны следующие строки, cравнить их с помощью == и
 метода equals() класса Object
 String s1 = "hello";

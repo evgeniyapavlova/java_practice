@@ -1,4 +1,3 @@
-package seminar1;
 // Напишите метод, который сжимает строку.
 
 // 📌 Пример: вход aaaabbbcdd.
@@ -27,7 +26,7 @@ public class CompressString {
         }
 
         sb.append(currentChar).append(count);
-        
+
         return sb.toString();
     }
 }

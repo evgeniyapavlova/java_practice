@@ -1,5 +1,3 @@
-package seminar1;
-
 import java.io.File;
 import java.io.FileWriter;
 import java.util.logging.FileHandler;

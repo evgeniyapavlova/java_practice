@@ -1,5 +1,3 @@
-package seminar1;
-
 import java.util.LinkedList;
 import java.util.Scanner;
 
@@ -40,7 +38,9 @@ public class InputDataToLinkedList {
             } else {
                 if (num >= 0 && num <= linkedList.size()) {
                     linkedList.add(num, text);
-                } else {System.err.println("Wrong index");}
+                } else {
+                    System.err.println("Wrong index");
+                }
 
             }
             System.err.println(linkedList);

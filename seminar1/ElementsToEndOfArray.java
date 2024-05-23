@@ -1,5 +1,3 @@
-package seminar1;
-
 import java.util.Arrays;
 
 // Задание №3

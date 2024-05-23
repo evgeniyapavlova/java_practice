@@ -1,5 +1,3 @@
-package seminar1;
-
 import java.util.LinkedList;
 import java.util.Scanner;
 

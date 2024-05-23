@@ -1,6 +1,5 @@
-package seminar1;
 
-public class Calculator {
+public class Calculator1 {
     public static void main(String[] args) {
         int a = 2;
         char op = '+';

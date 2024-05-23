@@ -3,8 +3,6 @@
 // состоит из чередующихся символов c1 и c2, начиная с c1.
 // ababababab
 
-package seminar1;
-
 public class AlternatingChars {
     public static void main(String[] args) {
         int n = 10000;

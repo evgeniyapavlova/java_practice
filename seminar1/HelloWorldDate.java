@@ -1,5 +1,3 @@
-package seminar1;
-
 import java.time.LocalDateTime;
 
 /**

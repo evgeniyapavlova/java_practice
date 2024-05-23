@@ -1,5 +1,3 @@
-package seminar1;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
@@ -7,7 +5,7 @@ import java.util.Iterator;
 public class RemoveEvenNumbers {
     public static void main(String[] args) {
         Integer[] arr = new Integer[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-        
+
         System.out.println(removeEvenNumbers(arr));
     }
 
